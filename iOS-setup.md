@@ -19,7 +19,7 @@ A signed IPA, TestFlight upload, and App Store publication are not included. The
 The tab bar contains Radar, Aircraft, ACARS, History, and Watchlist. It works on iPhone and iPad, including iPad multitasking widths.
 
 - **Radar** uses Apple Maps, with region presets, a custom coordinate/radius setting, map style selection, a center-area control, and an aircraft list. Tap an aircraft or its list row to open the details sheet. Automatic ADS-B requests run every 10 seconds while the app is active.
-- **Aircraft** searches the same bundled 623,216-record catalog as the Mac app, with 100 results per page. Records and available fields have the same source limitations.
+- **Aircraft** searches the same locally downloaded catalog as the Mac app, with 100 results per page. Records and available fields have the same source limitations.
 - **ACARS** supports recent messages, local filtering, link-type filters, date-based Airframes archive searches, older result pages, and CSV export using the system Files picker. Recent requests run every 30 seconds while active. Polling does not capture the entire firehose.
 - **Aircraft details** show live telemetry, saved observations, available Airframes flight history, recent messages, a watchlist star, and track export. Show track closes the sheet and displays saved observations on the radar. Long observation gaps remain disconnected.
 - **History and Watchlist** are saved locally between launches. They are separate from the Mac app’s data and do not sync between devices. Settings stores the API key in the device Keychain.
