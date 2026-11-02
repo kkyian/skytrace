@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+"archiveVersion" = 1;
+"classes" = {
+};
+"objectVersion" = 56;
+"objects" = {
+"BDD7BBEBF6FCB5D0898988F4" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/AppModel.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"5A1100C135BC2F76A6E59AB3" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "BDD7BBEBF6FCB5D0898988F4";
+};
+"460929AE4DED26BC6EC792D9" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/DataViews.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"A66DD4CDC6F12FDC61E92BBD" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "460929AE4DED26BC6EC792D9";
+};
+"AF701BCC5D008E1F27D53D14" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/Database.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"E6FBF840E20D234FABE304E4" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "AF701BCC5D008E1F27D53D14";
+};
+"E20F50D6DE7C8DB6A3D834F6" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/InspectorView.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"B27DD8D7F2805D40BB22A79E" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "E20F50D6DE7C8DB6A3D834F6";
+};
+"276162FEB0C1B4CC4D4C08B1" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/MobileViews.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"191D305599A9220673801B3D" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "276162FEB0C1B4CC4D4C08B1";
+};
+"EB18A03DF862EE4BAB6C097F" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/Models.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"83EB4BA712F9F2A843081B37" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "EB18A03DF862EE4BAB6C097F";
+};
+"B423997EB74043AB617445B1" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/RadarView.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"D0DC4D503D593D0965024C66" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "B423997EB74043AB617445B1";
+};
+"2DF79AF7A54F85EAA8433762" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/Services.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"3845A7C7A92BC05F658D1245" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "2DF79AF7A54F85EAA8433762";
+};
+"38D644B750B17429F36196E7" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/SettingsView.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"6DE1A02AB61021DC76CB8613" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "38D644B750B17429F36196E7";
+};
+"783E8D23A1703277636F2A5B" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "sourcecode.swift";
+"path" = "Sources/Skytrace/SkytraceApp.swift";
+"sourceTree" = "SOURCE_ROOT";
+};
+"21B9A545A102171225C1E7CA" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "783E8D23A1703277636F2A5B";
+};
+"8AB59D92EFB56DD0E9D6E6EF" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "file";
+"path" = "Sources/Skytrace/Resources/catalog.sqlite";
+"sourceTree" = "SOURCE_ROOT";
+};
+"D4DF80B56CAEB11DEB773985" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "8AB59D92EFB56DD0E9D6E6EF";
+};
+"73118E6630A44D6C6D19135B" = {
+"isa" = "PBXFileReference";
+"lastKnownFileType" = "folder.assetcatalog";
+"path" = "iOS/Assets.xcassets";
+"sourceTree" = "SOURCE_ROOT";
+};
+"001AB7E79A55E596A13B7241" = {
+"isa" = "PBXBuildFile";
+"fileRef" = "73118E6630A44D6C6D19135B";
+};
+"38A007151ABE87CC01A5B6E9" = {
+"isa" = "PBXFileReference";
+"explicitFileType" = "wrapper.application";
+"path" = "Skytrace.app";
+"sourceTree" = "BUILT_PRODUCTS_DIR";
+};
+"FBDC4F23F93125BBEEAE800C" = {
+"isa" = "PBXGroup";
+"children" = ("38A007151ABE87CC01A5B6E9");
+"name" = "Products";
+"sourceTree" = "<group>";
+};
+"64292B1C2B2E13EAD8788FC8" = {
+"isa" = "PBXGroup";
+"children" = ("BDD7BBEBF6FCB5D0898988F4","460929AE4DED26BC6EC792D9","AF701BCC5D008E1F27D53D14","E20F50D6DE7C8DB6A3D834F6","276162FEB0C1B4CC4D4C08B1","EB18A03DF862EE4BAB6C097F","B423997EB74043AB617445B1","2DF79AF7A54F85EAA8433762","38D644B750B17429F36196E7","783E8D23A1703277636F2A5B","8AB59D92EFB56DD0E9D6E6EF","73118E6630A44D6C6D19135B","FBDC4F23F93125BBEEAE800C");
+"sourceTree" = "<group>";
+};
+"BCE16DD0260827ECF338C787" = {
+"isa" = "PBXSourcesBuildPhase";
+"buildActionMask" = 2147483647;
+"files" = ("5A1100C135BC2F76A6E59AB3","A66DD4CDC6F12FDC61E92BBD","E6FBF840E20D234FABE304E4","B27DD8D7F2805D40BB22A79E","191D305599A9220673801B3D","83EB4BA712F9F2A843081B37","D0DC4D503D593D0965024C66","3845A7C7A92BC05F658D1245","6DE1A02AB61021DC76CB8613","21B9A545A102171225C1E7CA");
+"runOnlyForDeploymentPostprocessing" = 0;
+};
+"0189424A5A60FED329FA868E" = {
+"isa" = "PBXResourcesBuildPhase";
+"buildActionMask" = 2147483647;
+"files" = ("D4DF80B56CAEB11DEB773985","001AB7E79A55E596A13B7241");
+"runOnlyForDeploymentPostprocessing" = 0;
+};
+"7561BFB015D8F536760CB671" = {
+"isa" = "PBXFrameworksBuildPhase";
+"buildActionMask" = 2147483647;
+"files" = ();
+"runOnlyForDeploymentPostprocessing" = 0;
+};
+"7082CC0B6FC1282FCEABD07A" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+"CODE_SIGN_STYLE" = "Automatic";
+"CURRENT_PROJECT_VERSION" = "1";
+"GENERATE_INFOPLIST_FILE" = "YES";
+"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+"INFOPLIST_KEY_CFBundleDisplayName" = "Skytrace";
+"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone" = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+"MARKETING_VERSION" = "1.1";
+"PRODUCT_BUNDLE_IDENTIFIER" = "io.skytrace.ios";
+"PRODUCT_NAME" = "Skytrace";
+"SDKROOT" = "iphoneos";
+"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+"SUPPORTS_MACCATALYST" = "NO";
+"SWIFT_VERSION" = "5.0";
+"SWIFT_INCLUDE_PATHS" = "$(SRCROOT)/Sources";
+"TARGETED_DEVICE_FAMILY" = "1,2";
+"OTHER_LDFLAGS" = "$(inherited) -lsqlite3";
+"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+"CLANG_ENABLE_MODULES" = "YES";
+"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+"DEBUG_INFORMATION_FORMAT" = "dwarf";
+};
+"name" = "Debug";
+};
+"89E1FD6268CC0F221A2BE178" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"SDKROOT" = "iphoneos";
+"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+};
+"name" = "Debug";
+};
+"639A7CA24D39909E713B47F7" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+"CODE_SIGN_STYLE" = "Automatic";
+"CURRENT_PROJECT_VERSION" = "1";
+"GENERATE_INFOPLIST_FILE" = "YES";
+"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+"INFOPLIST_KEY_CFBundleDisplayName" = "Skytrace";
+"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone" = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+"MARKETING_VERSION" = "1.1";
+"PRODUCT_BUNDLE_IDENTIFIER" = "io.skytrace.ios";
+"PRODUCT_NAME" = "Skytrace";
+"SDKROOT" = "iphoneos";
+"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+"SUPPORTS_MACCATALYST" = "NO";
+"SWIFT_VERSION" = "5.0";
+"SWIFT_INCLUDE_PATHS" = "$(SRCROOT)/Sources";
+"TARGETED_DEVICE_FAMILY" = "1,2";
+"OTHER_LDFLAGS" = "$(inherited) -lsqlite3";
+"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+"CLANG_ENABLE_MODULES" = "YES";
+"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "";
+"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+};
+"name" = "Release";
+};
+"E6DE6C99132752C914FEF632" = {
+"isa" = "XCBuildConfiguration";
+"buildSettings" = {
+"SDKROOT" = "iphoneos";
+"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+};
+"name" = "Release";
+};
+"C57128001CE614BF8549D6BB" = {
+"isa" = "XCConfigurationList";
+"buildConfigurations" = ("7082CC0B6FC1282FCEABD07A","639A7CA24D39909E713B47F7");
+"defaultConfigurationIsVisible" = 0;
+"defaultConfigurationName" = "Release";
+};
+"0E8A3AD980EC179856012B7E" = {
+"isa" = "PBXNativeTarget";
+"buildConfigurationList" = "C57128001CE614BF8549D6BB";
+"buildPhases" = ("BCE16DD0260827ECF338C787","7561BFB015D8F536760CB671","0189424A5A60FED329FA868E");
+"buildRules" = ();
+"dependencies" = ();
+"name" = "Skytrace-iOS";
+"productName" = "Skytrace";
+"productReference" = "38A007151ABE87CC01A5B6E9";
+"productType" = "com.apple.product-type.application";
+};
+"862894B703A6DEDF96A9DD6C" = {
+"isa" = "XCConfigurationList";
+"buildConfigurations" = ("89E1FD6268CC0F221A2BE178","E6DE6C99132752C914FEF632");
+"defaultConfigurationIsVisible" = 0;
+"defaultConfigurationName" = "Release";
+};
+"98F54143AB4E86B28C3AFEE0" = {
+"isa" = "PBXProject";
+"attributes" = {
+"LastUpgradeCheck" = "1600";
+"TargetAttributes" = {
+"0E8A3AD980EC179856012B7E" = {
+"CreatedOnToolsVersion" = "16.0";
+};
+};
+};
+"buildConfigurationList" = "862894B703A6DEDF96A9DD6C";
+"compatibilityVersion" = "Xcode 14.0";
+"developmentRegion" = "en";
+"hasScannedForEncodings" = 0;
+"knownRegions" = ("en","Base");
+"mainGroup" = "64292B1C2B2E13EAD8788FC8";
+"productRefGroup" = "FBDC4F23F93125BBEEAE800C";
+"projectDirPath" = "";
+"projectRoot" = "";
+"targets" = ("0E8A3AD980EC179856012B7E");
+};
+};
+"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}

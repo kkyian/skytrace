@@ -1,0 +1,26 @@
+.build/
+.swiftpm/
+.build-ios*/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+__pycache__/
+*.pyc
+# Locally downloaded catalogs, observations, and provider exports.
+*.sqlite
+*.sqlite-*
+*.sqlite.new
+*.csv
+*.csv.gz
+# Compiled apps and Apple signing material.
+*.app/
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
